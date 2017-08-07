@@ -1,11 +1,11 @@
 # redshift-control
 A bash script to control redshift
-##Dependencies
+## Dependencies
 `redshift`, `bash`
-#Building
+# Building
 `sudo apt-get install redshift`
 `./redshift-control.sh`
-##Supported Platforms
+## Supported Platforms
 Any relatively modern Linux distribution will work
-##License
+## License
 GPLv3
