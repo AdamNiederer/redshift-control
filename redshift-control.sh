@@ -63,9 +63,9 @@ if [ $1 -eq -2 ]; then #Raise Temperature
 fi
 
 if [ $REDSHIFT_BRIGHTNESS -eq 10 ]; then
-	redshift -O $REDSHIFT_TEMPERATURE -b 1.0
+	redshift -PO $REDSHIFT_TEMPERATURE -b 1.0
 else
-        redshift -O $REDSHIFT_TEMPERATURE -b "0."$REDSHIFT_BRIGHTNESS
+        redshift -PO $REDSHIFT_TEMPERATURE -b "0."$REDSHIFT_BRIGHTNESS
 fi
 
 echo "Redshift set to" $REDSHIFT_BRIGHTNESS "and" $REDSHIFT_TEMPERATURE
